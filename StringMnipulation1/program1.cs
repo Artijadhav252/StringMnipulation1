@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,11 +20,11 @@ namespace StringMnipulation1
             CalculateLenghtOfString();
 
             CalculateVowels();
-;
-            
+            ;
+
 
         }
-         static void StringManipulation()
+        static void StringManipulation()
         {
             Console.WriteLine("Inside of the StringManipulation Function");
         }
