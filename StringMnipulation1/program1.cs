@@ -1,91 +1,91 @@
 ﻿
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
 
-namespace StringMnipulation1
-{
-    internal class program1
-    {
+//namespace StringMnipulation1
+//{
+//    internal class program1
+//    {
 
-        public static void Main()
-        {
+//        public static void Main()
+//        {
 
-            StringManipulation();
+//            StringManipulation();
 
-            ShowFullName();
+//            ShowFullName();
 
-            CalculateLenghtOfString();
+//            CalculateLenghtOfString();
 
-            CalculateVowels();
-            ;
-
-
-        }
-        static void StringManipulation()
-        {
-            Console.WriteLine("Inside of the StringManipulation Function");
-        }
-        static void ShowFullName()
-        {
-            //SHOW FULL NAME
-
-            string FirstName, MiddleName, LastName, FullName;
-
-            Console.WriteLine("Please enter your firstname");
-            FirstName = Console.ReadLine();
+//            CalculateVowels();
+//            ;
 
 
-            Console.WriteLine("Please enter your MiddleNme");
-            MiddleName = Console.ReadLine();
+//        }
+//        static void StringManipulation()
+//        {
+//            Console.WriteLine("Inside of the StringManipulation Function");
+//        }
+//        static void ShowFullName()
+//        {
+//            //SHOW FULL NAME
+
+//            string FirstName, MiddleName, LastName, FullName;
+
+//            Console.WriteLine("Please enter your firstname");
+//            FirstName = Console.ReadLine();
 
 
-            Console.WriteLine("Please enter your LastName");
-            LastName = Console.ReadLine();
+//            Console.WriteLine("Please enter your MiddleNme");
+//            MiddleName = Console.ReadLine();
 
-            FullName = FirstName + " " + MiddleName + " " + LastName;
 
-            Console.WriteLine(FullName);
-        }
+//            Console.WriteLine("Please enter your LastName");
+//            LastName = Console.ReadLine();
 
-        static void CalculateLenghtOfString()
-        {
-            //calculate length of the string
+//            FullName = FirstName + " " + MiddleName + " " + LastName;
 
-            Console.WriteLine("Please enter any string");
-            var str = Console.ReadLine();  //Welcome
+//            Console.WriteLine(FullName);
+//        }
 
-            int counter = 0;
+//        static void CalculateLenghtOfString()
+//        {
+//            //calculate length of the string
 
-            foreach (var item in str)
-            {
-                counter++;
-            }
-            Console.WriteLine("length of the string =" + counter);
-        }
+//            Console.WriteLine("Please enter any string");
+//            var str = Console.ReadLine();  //Welcome
 
-        static void CalculateVowels()
-        {
-            //calculate the vowels of the string
+//            int counter = 0;
 
-            Console.WriteLine("please enter any  string");
-            var str = Console.ReadLine();  //welcome
+//            foreach (var item in str)
+//            {
+//                counter++;
+//            }
+//            Console.WriteLine("length of the string =" + counter);
+//        }
 
-            int VowelsCountr = 0;
-            foreach (var item in str)
-            {
+//        static void CalculateVowels()
+//        {
+//            //calculate the vowels of the string
 
-                if (item == 'a' || item == 'e' || item == 'i' || item == 'o' || item == 'u' ||
-                    item == 'A' || item == 'E' || item == 'I' || item == 'O' || item == 'U')
-                {
-                    VowelsCountr++;
-                }
-            }
+//            Console.WriteLine("please enter any  string");
+//            var str = Console.ReadLine();  //welcome
 
-            Console.WriteLine("length of the string=" + VowelsCountr);
+//            int VowelsCountr = 0;
+//            foreach (var item in str)
+//            {
 
-        }
-    }
-}
+//                if (item == 'a' || item == 'e' || item == 'i' || item == 'o' || item == 'u' ||
+//                    item == 'A' || item == 'E' || item == 'I' || item == 'O' || item == 'U')
+//                {
+//                    VowelsCountr++;
+//                }
+//            }
+
+//            Console.WriteLine("length of the string=" + VowelsCountr);
+
+//        }
+//    }
+//}
